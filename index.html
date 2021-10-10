@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/f6867dd5bb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="start">
+        <i class="fas fa-bars"></i>
+        <div class="logo">
+          <i class="fab fa-youtube"></i>
+          <span>YouTube</span>
+          <span class="country">KR</span>
+        </div>
+      </div>
+      <div class="center">
+        <input type="text" placeholder="검색">
+        <button class="search"><i class="fas fa-search"></i></button>
+        <button class="mic"><i class="fas fa-microphone"></i></button>
+      </div>
+      <div class="end">
+        <ul class="icons">
+          <li><i class="fas fa-video"></i></li>
+          <li><i class="fas fa-ellipsis-v"></i></li>
+          <li><i class="far fa-bell"></i>  </li>
+        </ul>
+        <img src="./assets/image/user.png" class="user">  
+      </div>
+    </header>
+
+    <!-- video player -->
+    <section class="player">
+      <video src="./assets/video/Eternals.mp4" controls autoplay></video>
+    </section>
+
+    <!-- video info -->
+    <section class="video-info">
+      <ul class="hashtags">
+        <li>#Marvel-studio</li>
+        <li>#Eternals</li>
+        <li>#마동석</span>
+      </ul>
+      <div class="title">[이터널스] 태초의 수호자 영상</div>
+      <div class="statesAndButtons">
+        <span class="states">조회수 206,517회 2021. 10.9.</span>
+        <ul class="buttons">
+          <li>
+            <button class="underline">
+              <i class="fas fa-thumbs-up"></i>
+              <span>1.6K</span>
+            </button>
+          </li>
+          <li>
+            <button class="underline">
+              <i class="fas fa-thumbs-down"></i>
+              <span>25</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fas fa-share"></i>
+              <span>공유</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fas fa-plus"></i>
+              <span>저장</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fas fa-ellipsis-h"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+      
+    <!-- video detail -->
+    <section class="video-detail">
+      <div class="channel">
+        <div class="logo">
+          <img src="./assets/image/marvel.jpg">
+          <div class="text">
+            <span class="name">MarvelKorea</span>
+            <span class="subscribers">구독자 16.8만명</span>
+          </div>
+        </div>
+        <button class="subscribe">구독</button>
+      </div>
+      <div class="explaination">
+      </div>
+    </section>
+    
+    <!-- Up Next -->
+    <section class="upNext">
+      <ul class="playlist">
+        <li class="item">
+          <img src="./assets/image/thumbnail1.webp">
+          <div class="info">
+            <span class="title">메딕 1마리에 천원이요? 진짜?</span>
+            <span class="channel">흑운장TV [BLACKTUBE]</span>
+            <span class="states">조회수 9.6만회 3주 전</span>
+          </div>
+        </li>
+        <li class="item">
+          <img src="./assets/image/thumbnail2.webp">
+          <div class="info">
+            <span class="title">제발 지고 싶다는 방에 들어갔더니 상대가 이상해졌습니다ㅋㅋㅋ</span>
+            <span class="channel">흑운장TV [BLACKTUBE]</span>
+            <span class="states">조회수 11.6만회 2개월 전</span>
+          </div>
+        </li>
+        <li class="item">
+          <img src="./assets/image/thumbnail3.webp">
+          <div class="info">
+            <span class="title">Marvel Studios’ Eternals | Final Trailer</span>
+            <span class="channel">Marvel Entertainment</span>
+            <span class="states">조회수 2479.6만회 2주 전</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
